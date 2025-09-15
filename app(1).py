@@ -4,8 +4,8 @@ import joblib
 import tensorflow as tf
 
 # preprocessor and model loading
-preprocessor = joblib.load("/content/drive/MyDrive/preprocessor.pkl")
-model = tf.keras.models.load_model("/content/drive/MyDrive/NN_MPI_model1.keras")
+preprocessor = joblib.load("preprocessor.pkl")
+model = tf.keras.models.load_model("NN_MPI_model1.keras")
 
 st.title("Neural Network MPI Status Prediction App")
 
